@@ -20,8 +20,8 @@
             </ul>
 
             <div class="gap-4 flex flex-row items-center justify-center order-2 md:ms-8 mt-4 md:mt-0">
-                <button type="button" class="btn btn__primary">Masuk</button>
                 <button type="button" class="btn btn__primary--outlined">Daftar</button>
+                <button type="button" class="btn btn__primary">Masuk</button>
             </div>
         </div>
     </div>

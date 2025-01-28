@@ -8,10 +8,10 @@ i fa, i fa-solid{
     @apply font-medium rounded-lg text-sm px-6 py-2 focus:outline-none;
 
     &__primary{
-        @apply text-white bg-primary hover:bg-primary-600 focus:ring-4 focus:ring-primary-100 border-2 border-primary;
+        @apply text-white bg-primary hover:bg-primary-600 hover:border-primary-600 focus:ring-4 focus:ring-primary-100 border-2 border-primary;
 
         &--outlined{
-            @apply text-primary bg-transparent hover:bg-primary hover:text-white focus:ring-4 focus:ring-primary-100 border-2 border-primary;
+            @apply text-primary bg-transparent hover:bg-primary hover:text-white focus:ring-4 focus:ring-primary-100 border-2 border-primary hover:border-primary;
         }
     }
 }
