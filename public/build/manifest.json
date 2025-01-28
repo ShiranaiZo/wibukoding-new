@@ -1,0 +1,21 @@
+{
+  "resources/fonts/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf": {
+    "file": "assets/NotoSansJP-VariableFont_wght-ZreEt97O.ttf",
+    "src": "resources/fonts/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf"
+  },
+  "resources/fonts/Noto_Serif_JP/NotoSerifJP-VariableFont_wght.ttf": {
+    "file": "assets/NotoSerifJP-VariableFont_wght-DiXlPuz2.ttf",
+    "src": "resources/fonts/Noto_Serif_JP/NotoSerifJP-VariableFont_wght.ttf"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DEYr0_pP.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-IQ-kCJhu.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  }
+}
