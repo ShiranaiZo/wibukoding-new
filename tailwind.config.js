@@ -16,6 +16,7 @@ module.exports = {
                 'primary-200': colors.sky[200],
                 'primary-300': colors.sky[300],
                 'primary': colors.sky[500],
+                'primary-600': colors.sky[600],
                 'primary-700': colors.sky[700],
                 'primary-900': colors.sky[900],
                 'primary-950': colors.sky[950],

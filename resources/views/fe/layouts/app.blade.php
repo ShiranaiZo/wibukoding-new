@@ -13,7 +13,7 @@
     @include('fe.layouts.navbar')
 
     <div class="w-full">
-        <div class="max-w-screen-xl mx-auto">
+        <div class="max-w-screen-xl mx-auto px-4">
             @yield('content')
         </div>
     </div>

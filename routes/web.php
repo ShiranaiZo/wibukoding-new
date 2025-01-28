@@ -18,20 +18,25 @@ use Illuminate\Support\Facades\Route;
         })
         ->name('home');
 
-    Route::get('/about', function () {
+    Route::get('/alur-belajar', function () {
             return view('fe.pages.home');
-        })->name('about');
+        })->name('learning-path');
 
-    Route::get('/article', function () {
+    Route::get('/artikel', function () {
             return view('fe.pages.home');
         })->name('article');
 
-    Route::get('/service', function () {
+    Route::get('/forum', function () {
             return view('fe.pages.home');
         })
-        ->name('service');
+        ->name('forum');
 
-    Route::get('/contact', function () {
+    Route::get('/masuk', function () {
             return view('fe.pages.home');
         })
-        ->name('contact');
+        ->name('login');
+
+    Route::get('/daftar', function () {
+            return view('fe.pages.home');
+        })
+        ->name('register');

@@ -21,20 +21,16 @@ class InitServiceProvider extends ServiceProvider
                     'name' => 'Home',
                 ],
                 [
-                    'url' => route('about'),
-                    'name' => 'About',
+                    'url' => route('learning-path'),
+                    'name' => 'Alur Belajar',
                 ],
                 [
                     'url' => route('article'),
-                    'name' => 'Article',
+                    'name' => 'Artikel',
                 ],
                 [
-                    'url' => route('service'),
-                    'name' => 'Service',
-                ],
-                [
-                    'url' => route('contact'),
-                    'name' => 'Contact',
+                    'url' => route('forum'),
+                    'name' => 'Forum',
                 ],
             ];
 
