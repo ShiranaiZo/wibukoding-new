@@ -22,7 +22,5 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        Blade::anonymousComponentPath(__DIR__.'/../../resources/views/fe/components', 'fe');
-        Blade::anonymousComponentPath(__DIR__.'/../../resources/views/be/components', 'be');
     }
 }

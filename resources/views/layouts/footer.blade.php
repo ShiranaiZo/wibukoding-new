@@ -54,27 +54,27 @@
         {{-- <hr class="my-4 border-gray-200 mx-auto md:my-8" /> --}}
 
         <div class="flex flex-col md:flex-row items-center justify-between">
-            <span class="text-sm text-gray-500 text-center">© {{ date('Y') }} <a href="{{ route('home') }}" class="hover:text-black">Wibukoding</a>. All Rights Reserved.
+            <span class="text-sm text-gray-500 text-center">© {{ date('Y') }} <a href="{{ route('home') }}" class="hover:text-primary-900">Wibukoding</a>. All Rights Reserved.
             </span>
 
             <div class="flex mt-4 justify-center">
-                <a href="{{ url('https://www.instagram.com/wibukoding') }}" class="text-gray-500 hover:text-black" target="_blank">
+                <a href="{{ url('https://www.instagram.com/wibukoding') }}" class="text-gray-500 hover:text-primary-900" target="_blank">
                     <i class="fa-brands fa-square-instagram"></i>
                     <span class="sr-only">Instagram</span>
                 </a>
-                <a href="{{ url('https://www.tiktok.com/@wibukoding') }}" class="text-gray-500 hover:text-black ms-5" target="_blank">
+                <a href="{{ url('https://www.tiktok.com/@wibukoding') }}" class="text-gray-500 hover:text-primary-900 ms-5" target="_blank">
                     <i class="fa-brands fa-tiktok"></i>
                     <span class="sr-only">Tiktok</span>
                 </a>
-                <a href="{{ url('https://www.youtube.com/@wibukoding') }}" class="text-gray-500 hover:text-black ms-5" target="_blank">
+                <a href="{{ url('https://www.youtube.com/@wibukoding') }}" class="text-gray-500 hover:text-primary-900 ms-5" target="_blank">
                     <i class="fa-brands fa-youtube"></i>
                     <span class="sr-only">Youtube</span>
                 </a>
-                <a href="{{ url('https://github.com/ShiranaiZo') }}" class="text-gray-500 hover:text-black ms-5" target="_blank">
+                <a href="{{ url('https://github.com/ShiranaiZo') }}" class="text-gray-500 hover:text-primary-900 ms-5" target="_blank">
                     <i class="fa-brands fa-github"></i>
                     <span class="sr-only">GitHub</span>
                 </a>
-                <a href="{{ url('https://www.linkedin.com/in/faishal-bariq-maulana') }}" class="text-gray-500 hover:text-black ms-5" target="_blank">
+                <a href="{{ url('https://www.linkedin.com/in/faishal-bariq-maulana') }}" class="text-gray-500 hover:text-primary-900 ms-5" target="_blank">
                     <i class="fa-brands fa-linkedin"></i>
                     <span class="sr-only">LinkedIn</span>
                 </a>

@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home - Wibukoding</title>
+    <title>@yield('title') - Wibukoding</title>
 
     @vite(['resources/scss/fe/app.scss', 'resources/js/fe/app.js'])
 
 </head>
-<body class="flex flex-col min-h-screen">
-    @include('fe.layouts.navbar')
+<body class="flex flex-col min-h-screen bg-primary-50 ">
+    @include('layouts.navbar')
 
     <div class="w-full">
         <div class="max-w-screen-xl mx-auto px-4">
@@ -18,6 +18,6 @@
         </div>
     </div>
 
-    @include('fe.layouts.footer')
+    @include('layouts.footer')
 </body>
 </html>

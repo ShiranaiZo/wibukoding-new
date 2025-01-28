@@ -11,6 +11,7 @@ module.exports = {
     theme: {
         extend: {
             colors: {
+                'default-bg': colors.zinc[100],
                 'primary-50': colors.sky[50],
                 'primary-100': colors.sky[100],
                 'primary-200': colors.sky[200],

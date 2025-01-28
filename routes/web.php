@@ -14,29 +14,29 @@ use Illuminate\Support\Facades\Route;
 
 // Exampl. You can change this with your own route
     Route::get('/', function () {
-            return view('fe.pages.home');
+            abort(503);
         })
         ->name('home');
 
     Route::get('/alur-belajar', function () {
-            return view('fe.pages.home');
+            abort(503);
         })->name('learning-path');
 
     Route::get('/artikel', function () {
-            return view('fe.pages.home');
+            abort(503);
         })->name('article');
 
     Route::get('/forum', function () {
-            return view('fe.pages.home');
+            abort(503);
         })
         ->name('forum');
 
     Route::get('/masuk', function () {
-            return view('fe.pages.home');
+            abort(503);
         })
         ->name('login');
 
     Route::get('/daftar', function () {
-            return view('fe.pages.home');
+            abort(503);
         })
         ->name('register');
