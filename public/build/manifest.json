@@ -1,4 +1,20 @@
 {
+  "resources/fontawesome/webfonts/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400-DZaxPHgR.ttf",
+    "src": "resources/fontawesome/webfonts/fa-regular-400.ttf"
+  },
+  "resources/fontawesome/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-BjRzuEpd.woff2",
+    "src": "resources/fontawesome/webfonts/fa-regular-400.woff2"
+  },
+  "resources/fontawesome/webfonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-D0aA9rwL.ttf",
+    "src": "resources/fontawesome/webfonts/fa-solid-900.ttf"
+  },
+  "resources/fontawesome/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-CTAAxXor.woff2",
+    "src": "resources/fontawesome/webfonts/fa-solid-900.woff2"
+  },
   "resources/fonts/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf": {
     "file": "assets/NotoSansJP-VariableFont_wght-ZreEt97O.ttf",
     "src": "resources/fonts/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf"
@@ -7,15 +23,29 @@
     "file": "assets/NotoSerifJP-VariableFont_wght-DiXlPuz2.ttf",
     "src": "resources/fonts/Noto_Serif_JP/NotoSerifJP-VariableFont_wght.ttf"
   },
-  "resources/js/app.js": {
-    "file": "assets/app-DEYr0_pP.js",
+  "resources/js/be/app.js": {
+    "file": "assets/app-C-eXZT6D.js",
     "name": "app",
-    "src": "resources/js/app.js",
+    "src": "resources/js/be/app.js",
+    "isEntry": true,
+    "imports": [
+      "resources/js/fe/app.js"
+    ]
+  },
+  "resources/js/fe/app.js": {
+    "file": "assets/app-s7Tv5rlc.js",
+    "name": "app",
+    "src": "resources/js/fe/app.js",
     "isEntry": true
   },
-  "resources/sass/app.scss": {
-    "file": "assets/app-IQ-kCJhu.css",
-    "src": "resources/sass/app.scss",
+  "resources/scss/be/app.scss": {
+    "file": "assets/app-D_pX4rAn.css",
+    "src": "resources/scss/be/app.scss",
+    "isEntry": true
+  },
+  "resources/scss/fe/app.scss": {
+    "file": "assets/app-B24Jwo53.css",
+    "src": "resources/scss/fe/app.scss",
     "isEntry": true
   }
 }
