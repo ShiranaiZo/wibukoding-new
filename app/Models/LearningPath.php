@@ -2,13 +2,14 @@
 
 namespace App\Models;
 
+use App\Concerns\ModelHasIsActive;
 use Illuminate\Database\Eloquent\Concerns\HasUlids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class LearningPath extends Model
 {
-    use HasFactory, HasUlids;
+    use HasFactory, HasUlids, ModelHasIsActive;
 
     protected $fillable = [
         'learning_path_category_id',
@@ -23,9 +24,9 @@ class LearningPath extends Model
     ];
 
     public const PLATFORMS = [
-        'Instagram',
-        'Tiktok',
-        'Youtube',
+        'instagram' => 'Instagram',
+        'tiktok' => 'Tiktok',
+        'youtube' => 'Youtube',
     ];
 
     public function learningPathCategory()

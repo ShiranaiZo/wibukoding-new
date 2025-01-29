@@ -1,4 +1,12 @@
 {
+  "resources/fontawesome/webfonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-D1LuMI3I.ttf",
+    "src": "resources/fontawesome/webfonts/fa-brands-400.ttf"
+  },
+  "resources/fontawesome/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-D_cYUPeE.woff2",
+    "src": "resources/fontawesome/webfonts/fa-brands-400.woff2"
+  },
   "resources/fontawesome/webfonts/fa-regular-400.ttf": {
     "file": "assets/fa-regular-400-DZaxPHgR.ttf",
     "src": "resources/fontawesome/webfonts/fa-regular-400.ttf"
@@ -14,6 +22,10 @@
   "resources/fontawesome/webfonts/fa-solid-900.woff2": {
     "file": "assets/fa-solid-900-CTAAxXor.woff2",
     "src": "resources/fontawesome/webfonts/fa-solid-900.woff2"
+  },
+  "resources/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf": {
+    "file": "assets/NotoSans-VariableFont_wdth_wght-CYoOFcCZ.ttf",
+    "src": "resources/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf"
   },
   "resources/fonts/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf": {
     "file": "assets/NotoSansJP-VariableFont_wght-ZreEt97O.ttf",
@@ -39,12 +51,12 @@
     "isEntry": true
   },
   "resources/scss/be/app.scss": {
-    "file": "assets/app-D_pX4rAn.css",
+    "file": "assets/app-CKmOUY4L.css",
     "src": "resources/scss/be/app.scss",
     "isEntry": true
   },
   "resources/scss/fe/app.scss": {
-    "file": "assets/app-B24Jwo53.css",
+    "file": "assets/app-C0vkDw8B.css",
     "src": "resources/scss/fe/app.scss",
     "isEntry": true
   }

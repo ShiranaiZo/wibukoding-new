@@ -11,7 +11,7 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                'default-bg': colors.zinc[100],
+                'default-bg': colors.neutral[50],
                 'primary-50': colors.sky[50],
                 'primary-100': colors.sky[100],
                 'primary-200': colors.sky[200],
@@ -26,6 +26,7 @@ module.exports = {
             },
         },
         fontFamily: {
+            'noto-sans': ['Noto Sans', 'sans-serif'],
             sans: ['Noto Sans JP', 'sans-serif'],
             serif: ['Noto Serif JP', 'serif'],
         },

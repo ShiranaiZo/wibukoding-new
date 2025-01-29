@@ -9,11 +9,12 @@
     @vite(['resources/scss/fe/app.scss', 'resources/js/fe/app.js'])
 
 </head>
-<body class="flex flex-col min-h-screen bg-primary-50 ">
+
+<body class="flex flex-col min-h-screen bg-default-bg">
     @include('layouts.navbar')
 
     <div class="w-full">
-        <div class="max-w-screen-xl mx-auto px-4">
+        <div class="max-w-screen-xl mx-auto p-4">
             @yield('content')
         </div>
     </div>

@@ -1,4 +1,6 @@
 <?php
+
+use App\Http\Controllers\MenuController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,9 +20,8 @@ use Illuminate\Support\Facades\Route;
         })
         ->name('home');
 
-    Route::get('/alur-belajar', function () {
-            abort(503);
-        })->name('learning-path');
+    Route::get('/alur-belajar', [MenuController::class, 'learningPath'])
+        ->name('learning-path');
 
     Route::get('/artikel', function () {
             abort(503);
