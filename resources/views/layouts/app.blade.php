@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title') - Wibukoding</title>
 
+    <link rel="icon" type="image/x-icon" href="{{ storage_url('static/logo.png') }}">
+
     @vite(['resources/scss/fe/app.scss', 'resources/js/fe/app.js'])
 
 </head>
